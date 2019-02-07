@@ -1,0 +1,182 @@
+%!TEX TS-program = xelatex
+\documentclass[]{friggeri-cv}
+\usepackage{afterpage}
+\usepackage{hyperref}
+\usepackage{color}
+\usepackage{xcolor}
+\usepackage{smartdiagram}
+\usepackage{fontspec}
+\usepackage{metalogo}
+\usepackage{dtklogos}
+\usepackage[utf8]{inputenc}
+\usepackage[export]{adjustbox} %To place images
+\usepackage{tikz}
+\hypersetup{
+    pdftitle={},
+    pdfauthor={},
+    pdfsubject={},
+    pdfkeywords={},
+    colorlinks=false,           % no lik border color
+    allbordercolors=white       % white border color for all
+}
+\RequirePackage{xcolor}
+\definecolor{pblue}{HTML}{0395DE}
+
+\begin{document}
+\header{Maren}{Eidal}
+      {Student at Marine Technology, NTNU}
+      
+% Fake text to add separator      
+\fcolorbox{white}{gray}{\parbox{\dimexpr\textwidth-2\fboxsep-2\fboxrule}{%
+.....
+}}
+
+% In the aside, each new line forces a line break
+\begin{aside}
+  \includegraphics[scale= 0.45, left]{img/circular_cv_photo.png}
+  \section{Date of Birth}
+    23/05/1992
+    ~
+  \section{Address}
+    Tyholtveien 18
+    7052 Trondheim
+    ~
+  \section{Tel}
+    +47 48 36 02 02
+    ~
+  \section{E-Mail}
+    \href{mailto:mareneidal@gmail.com}{\textbf{mareneidal@}\\gmail.com}
+  \section{Languages}
+    \textbf{Norsk}\includegraphics[scale=0.40]{img/5stars.png}
+    \textbf{Engelsk}\includegraphics[scale=0.40]{img/5stars.png}
+    \textbf{Fransk}\includegraphics[scale=0.40]{img/2stars.png}
+    ~
+  \section{Programming}
+       \textbf{C/C++}
+       \textbf{MATLAB} 
+    ~
+  \section{Skills}
+    Versatile
+    Hard-working
+    Flexible
+    ~
+  \section{Merits}
+    Winner of the Innovation Prize under Your Extreme 2017 
+\end{aside}
+~
+\vspace{5mm}
+\section{Experience}
+\begin{entrylist}
+  \entry
+    {01/18 - d.d}
+    {Student Assistant in TMR4160 Computer Methods \\for Marine Applications}
+    {NTNU}
+    {}
+  \entry
+    {08/16 - d.d}
+    {Student Assistant in TMA4130 Calculus 4N}
+    {NTNU}
+    {}
+   \entry
+    {06/17 - 08/17}
+    {DNV GL Summer Project 2017}
+    {DNV GL \vspace{1.5mm}}
+    {%Jobbet i et tverrfaglig team på ni stykker, med formål å forbedre transport og logistikk innen akvakultur
+    }
+  \entry
+    {08/15 - 12/15}
+    {Student Assistant in TMA4240 Statistics}
+    {NTNU}
+    {}
+    \entry
+    {06/13 - 08/16}
+    {Summer job at Madla Home Care Nursing}
+    {Stavanger Municipality}
+    {}
+    \entry
+    {08/12 - 12/12}
+    {Full-time waitress}
+    {Peppes Pizza}
+    {}
+    \entry
+    {07/12 - 08/12}
+    {Summer job at Sollien Residential Community Care}
+    {Bergen Municipality}
+    {}
+    \entry
+    {07/11}
+    {Summer job in office reception}
+    {Roche Norway}
+    {}
+\end{entrylist}
+\\
+\section{Education}
+\begin{entrylist}
+  \entry
+    {2013 - d.d}
+    {Master in Marine Technology - Marine Cybernetics}
+    {NTNU}
+    {5 year master program, exchange to South-Korea in spring 2017\\
+    Master subject: path planning and collision avoidance for ASVs\vspace{2mm}}
+  \entry
+    {2011 - 2012}
+    {Outdoor activities}
+    {Nordfjord Folkehøgskole}
+    {}
+  \entry
+    {2010 - 2011}
+    {General}
+    {American School of Paris}
+    {}
+\entry
+    {2008 - 2010}
+    {General}
+    {Bergen Cathedral School}
+    {}
+\end{entrylist}
+
+\section{References}
+\begin{minipage}{.45\linewidth}
+\begin{flushleft}                           
+\textbf{Liv Aune Hagen}\\
+Consultant, Shipping Advisory \\
+DNV GL Maritime\\
+\href{mailto:Liv.Aune.Hagen@dnvgl.com}{\textbf{Liv.Aune.Hagen@}dnvgl.com}
+\vspace{2mm}
+\end{flushleft} 
+\end{minipage}
+\hfill
+\begin{minipage}{.45\linewidth}
+\begin{flushright}                                  \textbf{Kristina Dahlberg} \\
+Senior Consultant, Employer Branding \\
+DNV GL - GSS HR Nordic Expert \\
+\href{mailto:Kristina.Dahlberg@dnvgl.com}{\textbf{Kristina.Dahlberg@}dnvgl.com}
+\end{flushright} 
+\end{minipage}
+
+
+\section{Extracurricular Activities}
+\begin{entrylist}
+   \entry
+    {05/16 - 10/16}
+    {Manager of sporting events}
+    {RUKA '16}
+    {}
+  \entry
+    {01/16 - 06/16}
+    {Responsible for social media}
+    {Ingeniører Uten Grenser}
+    {}
+  \entry
+    {04/15 - 11/15}
+    {Marketing crew}
+    {UKA '15}
+    {}
+  \entry
+    {01/15 - 06/15}
+    {Waitress}
+    {Studentersamfundet}
+    {}
+\end{entrylist}
+
+\end{document}
